@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <title>Title</title>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport"
+            content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet"
+            href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+            integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+            crossorigin="anonymous">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap"
+            rel="stylesheet">
+        <link rel="stylesheet" href="./assets/css/style.css">
+    </head>
+    <body>
+        <section class="baiTap">
+            <img class="bg"
+                src="./assets/images/karsten-winegeart-am7-eoabGAA-unsplash (1).jpg"
+                alt>
+            <div class="baiTap__content">
+                <select id="luaChonBaiTap">Bài Tập
+                    <option value="baiTap1" selected>Bài tập 1 Tính tiền lương
+                        nhân viên</option>
+                    <option value="baiTap2">Bài tập 2 Tính giá trị trung bình</option>
+                    <option value="baiTap3">Bài tập 3 Quy đổi tiền</option>
+                    <option value="baiTap4">Bài tập 4 Tính diện tích, chu vi
+                        hình chữ nhật</option>
+                    <option value="baiTap5">Bài tập 5 Tính tổng 2 ký số</option>
+                </select>
+                <div class="bt baiTap1 py-2">
+                    <input type="number" name id="luongMotNgay"
+                        placeholder="Lương một ngày">
+                    <input type="number" name id="soNgayLam"
+                        placeholder="Số ngày làm">
+                    <button style="min-width: 505px;" class="submitBtn">Tính
+                        tiền
+                        lương</button>
+                    <div class="ketQua ">
+                        <h3>Công thức: Lương = Lương 1 ngày * số ngày làm</h3>
+                    </div>
+                </div>
+                <div style="display: none;" class="bt baiTap2 py-2">
+                    <input type="number" name id
+                        placeholder="Nhập số thứ 1">
+                    <input type="number" name id
+                        placeholder="Nhập số thứ 2">
+                    <input type="number" name id
+                        placeholder="Nhập số thứ 3">
+                    <input type="number" name id
+                        placeholder="Nhập số thứ 4">
+                    <input type="number" name id
+                        placeholder="Nhập số thứ 5">
+                    <button class="submitBtn ">Tính
+                        trung
+                        bình</button>
+                    <br>
+                    <div class="ketQua ">
+                        <h3>Giá trị trung bình = (tổng 5 giá trị) / 5</h3>
+                    </div>
+                </div>
+                <div style="display: none;" class="bt baiTap3 py-2">
+                    <input type="number" name id="soTien"
+                        placeholder="Số USD cần chuyển đổi">
+                    <button class="submitBtn">Quy đổi</button>
+                    <div class="ketQua ">
+                        <h3>1 USD = 23.500 VND</h3>
+                    </div>
+                </div>
+                <div style="display: none;" class="bt baiTap4 py-2">
+                    <input type="number" name placeholder="Chiều dài"
+                        id="chieuDai">
+                    <input type="number" name placeholder="Chiều rộng"
+                        id="chieuRong">
+                    <button style="min-width: 505px;" class="submitBtn">Tính</button>
+                    <div class="ketQua ">
+                        <h3>P = (dài + rộng)*2 S = dài*rộng</h3>
+                    </div>
+                </div>
+                <div style="display: none;" class="bt baiTap5 py-2">
+                    <input type="number" name
+                        placeholder="Nhập số có hai chữ số" id>
+                    <button class="submitBtn">Tính</button>
+                    <div class="ketQua ">
+                        <h3>Kết quả sẽ hiển thị ở đây</h3>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <!-- Optional JavaScript -->
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+            integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+            crossorigin="anonymous"></script>
+        <script
+            src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+            integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+            crossorigin="anonymous"></script>
+        <script
+            src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+            integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+            crossorigin="anonymous"></script>
+        <script src="./assets/js/main.js"></script>
+    </body>
+</html>

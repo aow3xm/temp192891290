@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body,
+html {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+}
+.baiTap img.bg {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  filter: grayscale(30%);
+  object-fit: cover;
+  z-index: -1;
+}
+
+.baiTap__content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 700px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.bt {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 5px;
+}
+.bt input,
+.bt button {
+  text-align: center;
+  height: 50px;
+  width: 100%;
+  max-width: 250px;
+  border: none;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  line-height: 50px;
+  padding: 0 20px;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
+}
+.bt input::placeholder {
+  color: rgba(255, 255, 255, 0.4);
+}
+
+.bt .ketQua {
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  background-color: rgba(0, 0, 0, 0.5);
+  flex-basis: 100%;
+  min-width: 504px;
+  max-width: 505px;
+}
+
+.bt .ketQua h3 {
+  font-size: 1rem;
+  color: #fff;
+  padding: 0 20px;
+  line-height: 50px;
+}
