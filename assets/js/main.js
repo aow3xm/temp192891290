@@ -88,3 +88,7 @@ baiTap5BtnElement.addEventListener(`click`, function(){
         ketQua.innerHTML = rs;
     }
 })
+
+// B1 Người dùng nhập dữ kiện
+// B2 Xử lí
+// B3 Trả dữ liệu đã xử lí cho người dùng
